@@ -1,7 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "mrcloudbook-cicd-bucket" # Replace with your actual S3 bucket name
-    key    = "EKS/terraform.tfstate"
-    region = "us-east-1"
+    bucket = "mrcloudbook-cicd-bucket"
+    # other backend configurations...
   }
 }
